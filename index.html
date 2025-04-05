@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DaviDan-ApaDulce</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="images/logo-aqua.png" alt="" />
+        <div class="hamburger-menu" onclick="toggleNavbar()">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+        </div>
+        <div id="nav" class="navbar-items">
+            <a href="#">HOME</a>
+            <a href="#">WOMEN</a>
+            <a href="#">MEN</a>
+            <a href="#">ACCESSORIES</a>
+            <a href="#">SALE</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+            <a class="smallDevice" href="#">MY ACCOUNT</a>
+            <a class="smallDevice" href="#">SHOPPING CART</a>
+        </div>
+        <div class="login-bar">
+            <img src="images/avatar-example.png" alt="Avatar" class="avatar" />
+            <a href="#">My Account</a>
+        </div>
+        <div class="shopping-cart">
+            <i class="fa-solid fa-bag-shopping bag"></i>
+            <p class="cart-counter">0</p>
+        </div>
+
+        <div class="social-bar">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+        </div>
+    </div>
+
+    <section class="welcome">
+        <video autoplay muted loop class="background-video">
+            <source src="images/water-gif (1).mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="items">
+            <div class="line-container">
+                <div class="whole-line">
+                    <div class="line"></div>
+                    <div class="line smaller-line"></div>
+                </div>
+                <div class="whole-line">
+                    <div class="line"></div>
+                    <div class="line smaller-line"></div>
+                </div>
+                <div class="whole-line">
+                    <div class="line"></div>
+                    <div class="line smaller-line"></div>
+                </div>
+                <div class="whole-line">
+                    <div class="line"></div>
+                    <div class="line smaller-line"></div>
+                </div>
+            </div>
+
+            <div class="welcome-text">
+                <div class="title">BREAK YOUR OWN<br />RECORD</div>
+                <div class="subtitle">​With Our Competition Swimsuits</div>
+                <div class="welcome-button">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    <p>On Sale Now</p>
+                </div>
+            </div>
+            <div class="welcome-images">
+                <img class="img1" src="images/woman-welcome-white.png" alt="" />
+                <img class="img2" src="images/woman-welcome-black.png" alt="" />
+            </div>
+            <div class="trapezoid"></div>
+        </div>
+    </section>
+
+    <section class="categories">
+        <div class="men-category">
+            <div class="men-info">
+                <p>Men's<br />Swimwear</p>
+                <div class="welcome-button category-button category-button2">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    <p>Start Shopping</p>
+                </div>
+            </div>
+            <img src="images/man-swimwear.png" alt="" />
+        </div>
+
+        <div class="goggles-category">
+            <div class="goggles-info" anim-direc="left" anim-duration="2s">
+                <div class="text">
+                    <p>Crystal Vision<br />Goggles</p>
+                    <div class="welcome-button category-button">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <p>Shop Goggles</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="women-category">
+            <div class="woman-info">
+                <div class="text">
+                    <p>Women's<br />Swimwear</p>
+                    <div class="welcome-button category-button category-button3">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <p>Start Shopping</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="shop">
+        <div class="shop-content">
+            <div class="title title2">Explore the Collection</div>
+            <div class="subtitle subtitle2">
+                Discover swimwear that combines performance and style.<br />Shop now
+                and make every swim count!
+            </div>
+
+            <div class="slide-shop-container">
+                <div class="arrow arrow-left">&#9664;</div>
+                <div class="product product-slide">
+                    <div class="product-image-container">
+                        <img class="main-image-product" src="https://cdn-s3.touchofmodern.com/products/001/591/615/b42e1c7f52d2f3a214e8b1bf9317222d_large.jpg?1565980224" alt="" />
+                        <img class="alt-image-product" src="https://www.stuartslondon.com/au/images/belstaff-clipper-swim-shorts-forward-blue-p59040-866440_image.jpg" alt="" />
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">Swimming Shorts</p>
+                        <p>
+                            <span class="product-crossed-price">16.20 L</span><span class="product-price">14.30 L</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="product product-slide">
+                    <div class="product-image-container">
+                        <img class="main-image-product" src="https://cdn-s3.touchofmodern.com/products/001/549/393/fbe5274b4832a30139530c84e4c885a2_large.jpg?1562107935" alt="" />
+                        <img class="alt-image-product" src="https://th.bing.com/th/id/OIP.EfCNv5SJFfB2aphWgAKg9QHaIz?rs=1&pid=ImgDetMain" alt="" />
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">Brown Shorts</p>
+                        <p>
+                            <span class="product-crossed-price">18.20 L</span><span class="product-price">16.30 L</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="product product-slide">
+                    <div class="product-image-container">
+                        <img class="main-image-product" src="https://cdn-s3.touchofmodern.com/products/001/862/719/24686c25e16b8ee8aee81c8a169d274d_large.jpg?1590101501" alt="" />
+                        <img class="alt-image-product" src="https://th.bing.com/th/id/OIP.ab5Ht88WjcgwDq0ZgTT7zAHaLH?rs=1&pid=ImgDetMain" alt="" />
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">Blue Shorts</p>
+                        <p><span class="product-price">23.10 L</span></p>
+                    </div>
+                </div>
+
+                <div class="product product-slide">
+                    <div class="product-image-container">
+                        <img class="main-image-product" src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_1600/prodmedia/media/catalog/product/2/6/26-11-2021_GH_CS4001-PTR_1_1.jpg" alt="" />
+                        <img class="alt-image-product" src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_1600/prodmedia/media/catalog/product/0/2/02-05-2023-GH_SK907-KC-MAR_1_1.jpg" alt="" />
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">Gray Shorts</p>
+                        <p><span class="product-price">28.10 L</span></p>
+                    </div>
+                </div>
+
+                <div class="product product-slide">
+                    <div class="product-image-container">
+                        <img class="main-image-product" src="https://th.bing.com/th/id/OIP.PBpPX6k0e0ANvBCF7lS2ZAHaHa?w=1000&h=1000&rs=1&pid=ImgDetMain" alt="" />
+                        <img class="alt-image-product" src="https://editorialist.com/thumbnails/600/2021/4/014/212/656/14212656~blue_0.jpg" alt="" />
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">Black Shorts</p>
+                        <p>
+                            <span class="product-crossed-price">29.99 L</span><span class="product-price">24.59 L</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="product product-slide">
+                    <div class="product-image-container">
+                        <img class="main-image-product" src="https://images.sportsdirect.com/images/imgzoom/35/35212403_xxl.jpg" alt="" />
+                        <img class="alt-image-product" src="https://aws.atomretro.com/products/1400/ellesse-dem-swim-short-black-front.jpg" alt="" />
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">Swimming Pro Shorts</p>
+                        <p>
+                            <span class="product-price">13.10 L</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="arrow arrow-right">&#9654;</div>
+            </div>
+
+            <div class="shop-more-button">More Items</div>
+
+
+            <div class="shop-products-container" style="display: none;">
+                <div class="product">
+                    <div class="product-image-container">
+                        <img class="main-image-product" src="https://cdn-s3.touchofmodern.com/products/001/591/615/b42e1c7f52d2f3a214e8b1bf9317222d_large.jpg?1565980224" alt="" />
+                        <img class="alt-image-product" src="https://www.stuartslondon.com/au/images/belstaff-clipper-swim-shorts-forward-blue-p59040-866440_image.jpg" alt="" />
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">Swimming Shorts</p>
+                        <p>
+                            <span class="product-crossed-price">16.20 L</span><span class="product-price">14.30 L</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product-image-container">
+                        <img class="main-image-product" src="https://cdn-s3.touchofmodern.com/products/001/549/393/fbe5274b4832a30139530c84e4c885a2_large.jpg?1562107935" alt="" />
+                        <img class="alt-image-product" src="https://th.bing.com/th/id/OIP.EfCNv5SJFfB2aphWgAKg9QHaIz?rs=1&pid=ImgDetMain" alt="" />
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">Brown Shorts</p>
+                        <p>
+                            <span class="product-crossed-price">18.20 L</span><span class="product-price">16.30 L</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product-image-container">
+                        <img class="main-image-product" src="https://cdn-s3.touchofmodern.com/products/001/862/719/24686c25e16b8ee8aee81c8a169d274d_large.jpg?1590101501" alt="" />
+                        <img class="alt-image-product" src="https://th.bing.com/th/id/OIP.ab5Ht88WjcgwDq0ZgTT7zAHaLH?rs=1&pid=ImgDetMain" alt="" />
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">Blue Shorts</p>
+                        <p><span class="product-price">23.10 L</span></p>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product-image-container">
+                        <img class="main-image-product" src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_1600/prodmedia/media/catalog/product/2/6/26-11-2021_GH_CS4001-PTR_1_1.jpg" alt="" />
+                        <img class="alt-image-product" src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_1600/prodmedia/media/catalog/product/0/2/02-05-2023-GH_SK907-KC-MAR_1_1.jpg" alt="" />
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">Gray Shorts</p>
+                        <p><span class="product-price">28.10 L</span></p>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product-image-container">
+                        <img class="main-image-product" src="https://th.bing.com/th/id/OIP.PBpPX6k0e0ANvBCF7lS2ZAHaHa?w=1000&h=1000&rs=1&pid=ImgDetMain" alt="" />
+                        <img class="alt-image-product" src="https://editorialist.com/thumbnails/600/2021/4/014/212/656/14212656~blue_0.jpg" alt="" />
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">Black Shorts</p>
+                        <p>
+                            <span class="product-crossed-price">29.99 L</span><span class="product-price">24.59 L</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product-image-container">
+                        <img class="main-image-product" src="https://images.sportsdirect.com/images/imgzoom/35/35212403_xxl.jpg" alt="" />
+                        <img class="alt-image-product" src="https://aws.atomretro.com/products/1400/ellesse-dem-swim-short-black-front.jpg" alt="" />
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">Swimming Pro Shorts</p>
+                        <p>
+                            <span class="product-price">13.10 L</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product-image-container">
+                        <img class="main-image-product" src="https://cdn-s3.touchofmodern.com/products/001/591/615/b42e1c7f52d2f3a214e8b1bf9317222d_large.jpg?1565980224" alt="" />
+                        <img class="alt-image-product" src="https://www.stuartslondon.com/au/images/belstaff-clipper-swim-shorts-forward-blue-p59040-866440_image.jpg" alt="" />
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">Swimming Shorts</p>
+                        <p>
+                            <span class="product-crossed-price">16.20 L</span><span class="product-price">14.30 L</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product-image-container">
+                        <img class="main-image-product" src="https://cdn-s3.touchofmodern.com/products/001/549/393/fbe5274b4832a30139530c84e4c885a2_large.jpg?1562107935" alt="" />
+                        <img class="alt-image-product" src="https://th.bing.com/th/id/OIP.EfCNv5SJFfB2aphWgAKg9QHaIz?rs=1&pid=ImgDetMain" alt="" />
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">Brown Shorts</p>
+                        <p>
+                            <span class="product-crossed-price">18.20 L</span><span class="product-price">16.30 L</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product-image-container">
+                        <img class="main-image-product" src="https://cdn-s3.touchofmodern.com/products/001/862/719/24686c25e16b8ee8aee81c8a169d274d_large.jpg?1590101501" alt="" />
+                        <img class="alt-image-product" src="https://th.bing.com/th/id/OIP.ab5Ht88WjcgwDq0ZgTT7zAHaLH?rs=1&pid=ImgDetMain" alt="" />
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">Blue Shorts</p>
+                        <p><span class="product-price">23.10 L</span></p>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product-image-container">
+                        <img class="main-image-product" src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_1600/prodmedia/media/catalog/product/2/6/26-11-2021_GH_CS4001-PTR_1_1.jpg" alt="" />
+                        <img class="alt-image-product" src="https://media.endclothing.com/media/f_auto,q_auto:eco,w_1600/prodmedia/media/catalog/product/0/2/02-05-2023-GH_SK907-KC-MAR_1_1.jpg" alt="" />
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">Gray Shorts</p>
+                        <p><span class="product-price">28.10 L</span></p>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product-image-container">
+                        <img class="main-image-product" src="https://th.bing.com/th/id/OIP.PBpPX6k0e0ANvBCF7lS2ZAHaHa?w=1000&h=1000&rs=1&pid=ImgDetMain" alt="" />
+                        <img class="alt-image-product" src="https://editorialist.com/thumbnails/600/2021/4/014/212/656/14212656~blue_0.jpg" alt="" />
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">Black Shorts</p>
+                        <p>
+                            <span class="product-crossed-price">29.99 L</span><span class="product-price">24.59 L</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product-image-container">
+                        <img class="main-image-product" src="https://images.sportsdirect.com/images/imgzoom/35/35212403_xxl.jpg" alt="" />
+                        <img class="alt-image-product" src="https://aws.atomretro.com/products/1400/ellesse-dem-swim-short-black-front.jpg" alt="" />
+                    </div>
+                    <div class="product-info">
+                        <p class="product-name">Swimming Pro Shorts</p>
+                        <p>
+                            <span class="product-price">13.10 L</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pagination" id="pagination" style="display: none;">
+            <div onclick="prevPage()" id="prevBtn">
+                <i class="fa-solid fa-arrow-left"></i>
+            </div>
+            <span id="pageNumber">1</span>
+            <div onclick="nextPage()" id="nextBtn">
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="ads-banner">
+        <div class="slider">
+            <svg class="slider__mask" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080" width="0" height="0">
+                <defs>
+                    <!-- Slide 1 -->
+                    <pattern id="bg1" patternUnits="userSpaceOnUse" width="1920" height="1080" viewBox="0 0 1920 1080">
+                        <image xlink:href="https://iv1.lisimg.com/image/23356692/740full-ol%C3%ADvia-ortiz.jpg" width="100%" height="100%" />
+                    </pattern>
+                    <pattern id="pattern1l" patternUnits="userSpaceOnUse" width="562" height="366" viewBox="0 0 562 366">
+                        <image xlink:href="https://media01.stockfood.com/largepreviews/MjE3MDA2OTMxNg==/70002236-Woman-diving-in-a-pool-at-La-Manga-Resort-Spain-Europe.jpg" width="600px" height="350px" />
+                    </pattern>
+                    <pattern id="pattern1r" patternUnits="userSpaceOnUse" x="365px" width="562" height="366" viewBox="0 0 562 366">
+                        <image xlink:href="https://c.stocksy.com/a/cmP200/z9/575770.jpg" width="600px" height="400px" />
+                    </pattern>
+
+                    <!-- Slide 2 -->
+                    <pattern id="bg2" patternUnits="userSpaceOnUse" width="1920" height="1080" viewBox="0 0 1920 1080">
+                        <image xlink:href="https://i.pinimg.com/originals/53/63/f1/5363f1691ead6e9a70ac77daea338969.jpg" width="100%" height="100%" />
+                    </pattern>
+                    <pattern id="pattern2l" patternUnits="userSpaceOnUse" width="562" height="366" viewBox="0 0 562 366">
+                        <image xlink:href="https://i.pinimg.com/originals/53/63/f1/5363f1691ead6e9a70ac77daea338969.jpg" width="600px" height="600px" />
+                    </pattern>
+                    <pattern id="pattern2r" patternUnits="userSpaceOnUse" x="365" width="562" height="366" viewBox="0 0 562 366">
+                        <image xlink:href="https://www.artshelp.com/content/images/2022/10/Untitled-1-OP.gif" width="600px" height="600px" />
+                    </pattern>
+
+                    <!-- Slide 3 -->
+                    <pattern id="bg3" patternUnits="userSpaceOnUse" width="1920" height="1080" viewBox="0 0 1920 1080">
+                        <image xlink:href="https://th.bing.com/th/id/OIP.aFN28s7NOHFjRRUwHPLsRgHaF7?w=1280&h=1024&rs=1&pid=ImgDetMain" width="100%" height="100%" />
+                    </pattern>
+                    <pattern id="pattern3l" patternUnits="userSpaceOnUse" width="562" height="366" viewBox="0 0 562 366">
+                        <image xlink:href="https://th.bing.com/th/id/OIP.aFN28s7NOHFjRRUwHPLsRgHaF7?w=1280&h=1024&rs=1&pid=ImgDetMain" width="600px" height="600px" />
+                    </pattern>
+                    <pattern id="pattern3r" patternUnits="userSpaceOnUse" x="365" width="562" height="366" viewBox="0 0 562 366">
+                        <image xlink:href="https://th.bing.com/th/id/OIP.35F4BC9R1ipb7Nw8rf5KQwHaE7?rs=1&pid=ImgDetMain" width="600px" height="500px" />
+                    </pattern>
+                </defs>
+            </svg>
+
+            <div class="slide" id="slide-1">
+                <object data="ad1svg.html" type="image/svg+xml" class="slide__svg-content" style="overflow: hidden;"></object>
+                <img class="slide__img" src="images/woman-ad1.png" alt="">
+
+                <svg class="slide__bg" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1920" height="1080">
+                    <rect x="0" y="0" width="1920" height="1080" fill="url(#bg1)" />
+                </svg>
+                <div class="slide__images">
+                    <div class="slide__image slide__image--left">
+                        <svg viewBox="0 0 900 365" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" x="0px" y="0px">
+                            <path d="M 0 0 L 0 365 L 351.2382 365 L 562 0 L 0 0 Z" fill="url(#pattern1l)" />
+                        </svg>
+                    </div>
+
+                    <div class="slide__image slide__image--right">
+                        <svg viewBox="0 0 900 365" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" x="0px" y="0px">
+                            <path d="M 900 365 L 900 0 L 548.7618 0 L 338 365 L 900 365 Z" fill="url(#pattern1r)" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide" id="slide-2">
+                <object data="ad2svg.html" type="image/svg+xml" class="slide__svg-content slide__svg-content2" style="overflow: hidden;"></object>
+                <img class="slide__img slide__img2" src="images/man-ad2.png" alt="">
+
+                <svg class="slide__bg" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1920" height="1080">
+                    <rect x="0" y="0" width="1920" height="1080" fill="url(#bg2)" />
+                </svg>
+                <div class="slide__images">
+                    <div class="slide__image slide__image--left">
+                        <svg viewBox="0 0 900 365" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" x="0px" y="0px">
+                            <path d="M 0 0 L 0 365 L 351.2382 365 L 562 0 L 0 0 Z" fill="url(#pattern2l)" />
+                        </svg>
+                    </div>
+
+                    <div class="slide__image slide__image--right">
+                        <svg viewBox="0 0 900 365" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" x="0px" y="0px">
+                            <path d="M 900 365 L 900 0 L 548.7618 0 L 338 365 L 900 365 Z" fill="url(#pattern2r)" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide" id="slide-3">
+                <object data="ad3svg.html" type="image/svg+xml" class="slide__svg-content slide__svg-content3" style="overflow: hidden;"></object>
+                <img class="slide__img slide__img3" src="images/woman-ad3.png" alt="">
+
+                <svg class="slide__bg" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1920" height="1080">
+                    <rect x="0" y="0" width="1920" height="1080" fill="url(#bg3)" />
+                </svg>
+                <div class="slide__images">
+                    <div class="slide__image slide__image--left">
+                        <svg viewBox="0 0 900 365" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" x="0px" y="0px">
+                            <path d="M 0 0 L 0 365 L 351.2382 365 L 562 0 L 0 0 Z" fill="url(#pattern3l)" />
+                        </svg>
+                    </div>
+
+                    <div class="slide__image slide__image--right">
+                        <svg viewBox="0 0 900 365" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" x="0px" y="0px">
+                            <path d="M 900 365 L 900 0 L 548.7618 0 L 338 365 L 900 365 Z" fill="url(#pattern3r)" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider__pagination">
+                <a href="#slide-1" class="button">Slide 1</a>
+                <a href="#slide-2" class="button">Slide 2</a>
+                <a href="#slide-3" class="button">Slide 3</a>
+            </div>
+    </section>
+
+    <section class="footer">
+        <div class="footer-container">
+            <div class="subscription-container">
+                <div class="subscription-container-info">
+                    <p>Sign up now for 10$ off your next purchase</p>
+                    <input type="email" placeholder="Email *" required>
+                    <div class="dis-flex"><label>
+                            <input type="checkbox">
+                            Yes, subscribe me to your newsletter.
+                        </label>
+                        <button>Subscribe Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-links">
+            <div class="footer-links-container">
+                <div class="footer-column">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Sale</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Information</h3>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Store Policy</a></li>
+                        <li><a href="#">Payment Methods</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Stockists</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Customer Service</h3>
+                    <p>Phone: 123-456-7890</p>
+                    <p>Email: <a href="mailto:info@my-domain.com">semionovroman9@gmail.com</a></p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+    </section>
+</body>
+
+</html>
